@@ -31,7 +31,6 @@ while current_courses <= courses:
         w += s
         used_sheep.append(s)
         # print(used_sheep, w)
-    if current_weight > 1186: break 
     if current_courses == courses and len(used_sheep) == len(sheep):
         break
     if current_courses > courses:
